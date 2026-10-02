@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/2024-06-04_20-43-44.png" class="avatar" alt="Avatar">
+        <h1 class="header__title">Daniil Go | CV</h1>
+        <h2 class="header-subtitle">Frontend Dev</h2>
+    </header>
+    <main class="main">
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills: list</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>React</li>
+                    <li>TypeScript</li>
+                </ol>
+            </details>
+        </section>
+
+        <article>
+            <h4>Short article about me</h4>
+            <p>I am a passionate frontend developer with experience in creating responsive and user-friendly web applications.</p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="assets/2024-06-04_20-43-44.png" alt="Gallery Image 1">
+            <img src="assets/2024-06-04_20-43-44.png" alt="Gallery Image 2">
+        </section>
+        <hr class="separator">
+        <section class="video">
+            <iframe src="https://www.youtube.com/embed/N-Fa1tm3oz0?list=PLV9lBwGQ2FU1VOctyWifetyMMC-OTJ51e" title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section class="hobbies">
+            <h4>Hobbies</h4>
+            <details>
+                <summary>My Hobbies</summary>
+                <ul>
+                    <li>Reading</li>
+                    <li>Traveling</li>
+                    <li>Photography</li>
+                </ul>
+            </details>
+        </section>
+        <hr class="separator">
+        <section class="education">
+            <table class="ed_table">
+                <thead>
+                    <tr>
+                        <th>School/Uni</th>
+                        <th>Occupation</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>IT School</th>
+                        <th>React Dev</th>
+                        <th>2019</th>
+                    </tr>
+                    <tr>
+                        <th>IT School 2</th>
+                        <th>Angular Dev</th>
+                        <th>2020</th>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="quote">
+            <blockquote>
+                Действие - единственный путь к успеху.
+            </blockquote>
+        </section>
+        <section class="interaction">
+            <form action="https://ya.ru" 
+                  method="get" 
+                  class ="form"
+                  target="_blank">
+                  <fieldset>
+                    <legend>Required Fields</legend>
+                      <label for="firstNameId">First name:</label>
+                      <input 
+                          type="text" 
+                          name="firstName"
+                          id="firstNameId" 
+                          placeholder="Enter your first name" required>
+                      <label for="LastNameId">Last name:</label> 
+                      <input
+                          type="text"
+                          name="Lastname"
+                          id="LastNameId"
+                          placeholder="Enter your last name" required>
+                      <label for="EmailId">Email:</label>
+                      <input 
+                          type="text"
+                          name="Email"
+                          id="EmailId"
+                          placeholder="Enter your email" required>
+                  </fieldset>
+                  <br>
+                  <textarea 
+                      name="message" 
+                      placeholder="Enter your message" 
+                      >
+                  </textarea>
+                  <br>
+                  <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <address>
+            <a href="mailt:it@mail.ru" class="contacts__link">it@mail.ru</a>
+            <br>
+            <a href="tel:+7(999)999-99-99" class="contacts__link">+7(999)999-99-99</a>
+        </address>
+    </footer>
+</body>
+</html>
